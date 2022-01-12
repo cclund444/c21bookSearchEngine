@@ -2,10 +2,17 @@
 
 Description
 This Project is to work with Apollo Server, GraphQL
+
+* https://c21booksearch.herokuapp.com/
+
 * https://github.com/cclund444/c21bookSearchEngine
 
-
-
+Technologies Used:
+*JavaScript
+*json
+* .gitignore
+* express
+* bootstrap
 
 Contributor:
 Caleb Lund 

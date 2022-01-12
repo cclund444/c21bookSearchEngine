@@ -47,8 +47,8 @@ userSchema.methods.isCorrectPassword = async function (password) {
   return bcrypt.compare(password, this.password);
 };
 
-// when we query a user, we'll also get another field called `bookCount` with the number of saved books we have
-userSchema.virtual('bookCount').get(function () {
+// when we query a user, we'll also get another field called `bookloader.js` with the number of saved books we have
+userSchema.virtual('bookloader.js').get(function () {
   return this.savedBooks.length;
 });
 

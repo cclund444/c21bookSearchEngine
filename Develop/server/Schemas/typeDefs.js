@@ -5,7 +5,7 @@ type User {
     _id: ID
     username: String
     email: String
-    bookCount: String
+    bookloader.js: String
     savedBooks: [Book]
 }
 type Book {

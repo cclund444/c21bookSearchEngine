@@ -48,7 +48,7 @@ mutation removeBook($bookId: String!) {
     _id
     username
     email
-    bookCount
+    bookloader.js
     savedBooks {
       bookId
       authors
